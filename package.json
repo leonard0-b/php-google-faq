@@ -1,0 +1,26 @@
+{
+  "name": "php-google-faq",
+  "version": "1.0.0",
+  "description": "Riscrivere questa pagina del sito google https://policies.google.com/faq. Ci sono diverse domande con relative risposte.  Gestire il “Database” e la visualizzazione di queste domande e risposte con PHP.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leonard0-b/php-google-faq.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leonard0-b/php-google-faq/issues"
+  },
+  "homepage": "https://github.com/leonard0-b/php-google-faq#readme",
+  "devDependencies": {
+    "laravel-mix": "^6.0.18",
+    "postcss": "^8.1.14",
+    "sass": "^1.32.12",
+    "sass-loader": "^11.0.1"
+  }
+}
