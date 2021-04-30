@@ -1,0 +1,29 @@
+footer {
+  background-color: lightgrey;
+  .footer-left {
+    ul {
+      li {
+        padding: 15px 0;
+        list-style: none;
+        color:rgba(61,61,61,.8);
+        font-size: 11px;
+        a {
+          text-decoration: none;
+          color:rgba(61,61,61,.8);
+          font-size: 11px;
+          margin: 0 5px;
+        }
+      }
+    }
+  }
+  .footer-right {
+    i {
+      color: #2962ff;
+    }
+  }
+}
+
+.container {
+  justify-content: space-between;
+  align-items: center;
+}

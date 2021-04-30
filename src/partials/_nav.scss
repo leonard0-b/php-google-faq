@@ -35,13 +35,17 @@ nav {
         font-weight: 500;
         margin-right: 40px;
         padding-bottom: 10px;
+        list-style: none;
         &.active {
-          color: #3367d6;
           border-bottom: 3px solid #3367d6;
-          font-weight: 600;
         }
         a {
           color:rgb(95, 99, 104);
+          &.active {
+            color: #3367d6 !important;
+            font-weight: 600;
+          }
+  
         }
       }
     }
