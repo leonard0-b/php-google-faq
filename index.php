@@ -79,22 +79,21 @@
   </main>
   <footer class="flex">
     <div class="container flex">
-			<div class="footer-left">
-				<ul class="flex">
-					<li><a href="">Google</a>•</li>
-					<li><a href="">Tutto su Google</a>•</li>
-					<li><a href="">Privacy</a>•</li>
-					<li><a href="">Termini</a></li>
-				</ul>
-			</div>
-			<div class="footer-right">
-				<i class="fab fa-discord"></i>
-				<select name="" id="">
-					<option value="">Italiano</option>
-				</select>
-			</div>
+      <div class="footer-left">
+        <ul class="flex">
+          <li><a href="">Google</a>•</li>
+          <li><a href="">Tutto su Google</a>•</li>
+          <li><a href="">Privacy</a>•</li>
+          <li><a href="">Termini</a></li>
+        </ul>
+      </div>
+      <div class="footer-right">
+        <i class="fab fa-discord"></i>
+        <select name="" id="">
+          <option value="">Italiano</option>
+        </select>
+      </div>
     </div>
   </footer>
 </body>
 </html>
-
