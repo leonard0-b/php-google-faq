@@ -126,8 +126,7 @@ nav .nav-down ul li a.active {
     background-color: #fff;
     position: absolute;
     left: 0;
-    top: 72px;
-    width: 40vw;
+    width: 50vw;
     height: calc(100vh - 72.5312px);
     transform: translateX(-100%);
     transition: transform 0.8s ease-in;
@@ -157,6 +156,33 @@ nav .nav-down ul li a.active {
   }
   nav .nav-down ul li.active a {
     padding-left: 40px;
+  }
+}
+@media all and (max-width: 576px) {
+  nav .nav-down ul li {
+    font-size: 12px;
+  }
+
+  nav .nav-up .left span:last-child {
+    font-size: 20px;
+  }
+}
+@media all and (max-width: 576px) {
+  nav .nav-down ul li {
+    font-size: 12px;
+  }
+
+  nav .nav-up .left span:last-child {
+    font-size: 18px;
+  }
+}
+@media all and (max-width: 320px) {
+  nav .nav-down ul li {
+    font-size: 10px;
+  }
+
+  nav .nav-up .left span:last-child {
+    font-size: 15px;
   }
 }
 .question {
@@ -191,6 +217,11 @@ nav .nav-down ul li a.active {
   color: #2962ff;
 }
 
+@media all and (max-width: 576px) {
+  .question h2 {
+    padding: 20px 0 0 0;
+  }
+}
 footer {
   background-color: lightgrey;
 }
