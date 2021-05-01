@@ -85,9 +85,15 @@ nav .nav-down ul li a.active {
   font-weight: 600;
 }
 
+hr {
+  color: lightgrey;
+  height: 0.5px;
+}
+
 .nav-down-open {
   transform: translateX(0) !important;
   transition: transform 0.8s ease-in;
+  width: 50vw;
 }
 
 .inactive {
@@ -126,10 +132,9 @@ nav .nav-down ul li a.active {
     background-color: #fff;
     position: absolute;
     left: 0;
-    width: 50vw;
     height: calc(100vh - 72.5312px);
     transform: translateX(-100%);
-    transition: transform 0.8s ease-in;
+    transition: transform 0.8s ease-out;
   }
 
   .nav-down > ul {
@@ -156,6 +161,10 @@ nav .nav-down ul li a.active {
   }
   nav .nav-down ul li.active a {
     padding-left: 40px;
+  }
+
+  .close {
+    display: none;
   }
 }
 @media all and (max-width: 576px) {

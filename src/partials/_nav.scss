@@ -71,9 +71,15 @@ nav {
   }
 }
 
+hr {
+  color: lightgrey;
+  height: 0.5px;
+}
+
 .nav-down-open {
   transform: translateX(0) !important;
   transition: transform 0.8s ease-in;
+  width: 50vw;
 }
 
 .inactive {
@@ -112,10 +118,9 @@ nav {
     background-color: #fff;
     position: absolute;
     left: 0;
-    width: 50vw;
     height: calc(100vh - 72.5312px);
     transform: translateX(-100%);
-    transition: transform 0.8s ease-in;
+    transition: transform  0.8s ease-out;
   }
 
   .nav-down > ul {
@@ -142,6 +147,10 @@ nav {
     a {
       padding-left: 40px;
     }
+  }
+
+  .close {
+    display: none;
   }
 }
 
