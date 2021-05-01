@@ -37,7 +37,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="./assets/css/master.css">
+  <link rel="stylesheet" href="./assets/css/master.css" type>
   <title>Google FAQ - PHP</title>
 </head>
 <body>
@@ -45,8 +45,14 @@
     <nav>
       <div class="nav-up flex">
         <div class="left flex">
+          <div class="hamburger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+          </div>
           <img src="https://loghi-famosi.com/wp-content/uploads/2020/09/Google-Logo.png" alt="">
           <span>Privacy e termini</span>
+          <span>Domande frequenti</span>
         </div>
         <div class="right flex">
           <svg class="gb_We" focusable="false" viewBox="0 0 24 24"><path d="M6,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM16,6c0,1.1 0.9,2 2,2s2,-0.9 2,-2 -0.9,-2 -2,-2 -2,0.9 -2,2zM12,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2z"></path></svg>
@@ -66,16 +72,16 @@
     </nav>
   </header>
   <main>
-      <div class="container">
-        <div class="question">
-          <?php 
-          foreach ($faqs as $key => $questions) {
-            echo $questions["question"];
-            echo $questions["answer"];
-          }
-          ?>
-        </div>
+    <div class="container">
+      <div class="question">
+        <?php 
+        foreach ($faqs as $key => $questions) {
+          echo $questions["question"];
+          echo $questions["answer"];
+        }
+        ?>
       </div>
+    </div>
   </main>
   <footer class="flex">
     <div class="container flex">
@@ -95,5 +101,7 @@
       </div>
     </div>
   </footer>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script src="./src/main.js" charset="utf-8"></script> 
 </body>
 </html>
