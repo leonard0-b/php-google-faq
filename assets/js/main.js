@@ -9,9 +9,8 @@
 
 $(".hamburger").click(function () {
   console.log("ok");
-  $(".nav-down").toggleClass("nav-down-open");
+  $(".nav-dropdown").toggleClass("nav-dropdown-open");
   $("html").toggleClass("inactive");
-  $("nav").toggleclass("inactive");
 });
 
 /***/ }),
