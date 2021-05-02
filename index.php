@@ -89,6 +89,7 @@
 <body>
   <header>
     <nav>
+    <!-- Nav parte superiore -->
       <div class="nav-up flex">
         <div class="left flex">
           <div class="hamburger">
@@ -105,6 +106,7 @@
           <img src="./assets/img/Milhouse_Van_Houten_2.png" alt="">
         </div>
       </div>
+      <!-- Nav parte inferiore -->
       <div class="nav-down">
         <ul class="flex">
           <li><a href="">Introduzione</a></li>
@@ -115,6 +117,7 @@
         </ul>
       </div>
       <hr>
+      <!-- NAVBAR MOBILE -->
       <div class="nav-dropdown">
         <ul class="flex">
           <li><a href="">Introduzione</a></li>
@@ -130,6 +133,7 @@
     <div class="container">
       <div class="question">
         <?php 
+        /* col primo ciclo mi ricavo le chiavi, col secondo i valori */
         foreach ($faqs as $question => $value) {
           echo "<h2>" . $question . "</h2>";
           foreach ($value as $answer) {
@@ -158,6 +162,7 @@
       </div>
     </div>
   </footer>
+  <!-- cdn jQuery -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
   <script src="./src/main.js" charset="utf-8"></script> 
 </body>
